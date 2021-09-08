@@ -20,7 +20,7 @@ function CreditCard({
         style={{ backgroundColor: `${bgColor}`, color: `${color}` }}
       >
         <div className="type">
-          <img src={type} />
+          <img src={type} alt="Credit card" />
         </div>
         <div className="number">
           •••• •••• •••• {number.substr(number.length - 5, 4)}
